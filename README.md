@@ -6,7 +6,7 @@ crevasse`conf`格式simple条目列表
 * DIRECT
 
 ## 列表信息
-* `PROXY` 选用 [Cisco Umbrella](http://s3-us-west-1.amazonaws.com/umbrella-static/index.html) 百万人气列表 `5000+`
+* `PROXY` 选用 [Cisco Umbrella](http://s3-us-west-1.amazonaws.com/umbrella-static/index.html) `Global` 百万人气列表 `5000+`
 * `PROXY` 选用 [Alexa Top Sites](https://aws.amazon.com/alexa-top-sites/?nc1=f_ls) `United States` 热门排行 `500+`
 * `DIRECT` 选用 [Alexa Top Sites](https://aws.amazon.com/alexa-top-sites/?nc1=f_ls) `China` 热门排行 `500+`
 
