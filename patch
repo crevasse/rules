@@ -1,11 +1,15 @@
-# Apple Services
+# apple services
 DOMAIN-SUFFIX,apple.com,Apple
 DOMAIN-SUFFIX,itunes.com,Apple
 DOMAIN-SUFFIX,icloud.com,Apple
 
-# Carrier 2018-03-02 16:18:54
+# Carrier 2018-03-02
 DOMAIN-SUFFIX,haoshengtoys.com,REJECT
 DOMAIN-SUFFIX,plumpie.cn,REJECT
 DOMAIN-SUFFIX,jjwwxinwen.com,REJECT
 DOMAIN-SUFFIX,pgu.cc,REJECT
 ^(http|https):\/\/139.198.11.216 _ reject
+
+# google ads-services
+DOMAIN-KEYWORD,googleads,REJECT
+DOMAIN-KEYWORD,doubleclick,REJECT
