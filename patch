@@ -3,7 +3,7 @@ DOMAIN-SUFFIX,apple.com,Apple
 DOMAIN-SUFFIX,itunes.com,Apple
 DOMAIN-SUFFIX,icloud.com,Apple
 
-# Carrier 2018-03-02
+# carrier 2018-03-02
 DOMAIN-SUFFIX,haoshengtoys.com,REJECT
 DOMAIN-SUFFIX,plumpie.cn,REJECT
 DOMAIN-SUFFIX,jjwwxinwen.com,REJECT
@@ -13,3 +13,7 @@ DOMAIN-SUFFIX,pgu.cc,REJECT
 # google ads-services
 DOMAIN-KEYWORD,googleads,REJECT
 DOMAIN-KEYWORD,doubleclick,REJECT
+(show_ads_impl\.js)
+
+# other
+DOMAIN-KEYWORD,ssp,REJECT
