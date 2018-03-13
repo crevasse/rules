@@ -25,6 +25,7 @@ DOMAIN-SUFFIX,pgu.cc,REJECT
 ^(http)\:\/\/139.198.11.216 _ reject
 
 # carrier 2018-03-13
+DOMAIN-SUFFIX,profuture3d.com,REJECT
 ^(http)\:\/\/139.198.6.30 _ reject
 ^(http)\:\/\/\d+.*?\:9001\/ _ reject
 
