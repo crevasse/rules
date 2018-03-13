@@ -38,3 +38,6 @@ DOMAIN-SUFFIX,profuture3d.com,REJECT
 
 # http to https
 ^(http)\:\/\/changyan.sohu.com https://changyan.sohu.com 302
+
+# direct fixed
+DOMAIN-SUFFIX,iqshw.com,DIRECT
