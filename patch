@@ -1,8 +1,8 @@
-[---------crevasse patch---------]
-[patch_source: $burpsuite@private]
-[create_time: 2018-03-14 01:20:56]
-[patch_support: burpsuite@mail.ru]
-[---------crevasse patch---------]
++---------crevasse patch---------+
++patch_source: $burpsuite@private+
++create_time: 2018-03-14 01:20:56+
++patch_support: burpsuite@mail.ru+
++---------crevasse patch---------+
 
 
 
