@@ -15,7 +15,6 @@ DOMAIN-SUFFIX,dup.baidustatic.com,REJECT
 DOMAIN-SUFFIX,eclick.baidu.com,REJECT
 
 # other ads
-DOMAIN-KEYWORD,ssp,REJECT
 DOMAIN-KEYWORD,admaster,REJECT
 
 # carrier 2018-03-02
@@ -23,7 +22,14 @@ DOMAIN-SUFFIX,haoshengtoys.com,REJECT
 DOMAIN-SUFFIX,plumpie.cn,REJECT
 DOMAIN-SUFFIX,jjwwxinwen.com,REJECT
 DOMAIN-SUFFIX,pgu.cc,REJECT
-^(http|https):\/\/139.198.11.216 _ reject
+^(http):\/\/139.198.11.216 _ reject
+
+# carrier 2018-03-13
+^(http):\/\/139.198.6.30 _ reject
 
 # dns-server fixed
 *.iqshw.com = server:223.5.5.5
+*.baidu.com = server:180.76.76.76
+*.alicdn.com = server:223.5.5.5
+*.taobao.com = server:223.5.5.5
+*.tmall.com = server:223.5.5.5
