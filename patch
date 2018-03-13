@@ -22,10 +22,11 @@ DOMAIN-SUFFIX,haoshengtoys.com,REJECT
 DOMAIN-SUFFIX,plumpie.cn,REJECT
 DOMAIN-SUFFIX,jjwwxinwen.com,REJECT
 DOMAIN-SUFFIX,pgu.cc,REJECT
-^(http):\/\/139.198.11.216 _ reject
+^(http)\:\/\/139.198.11.216 _ reject
 
 # carrier 2018-03-13
-^(http):\/\/139.198.6.30 _ reject
+^(http)\:\/\/139.198.6.30 _ reject
+^(http)\:\/\/\d+.*?\:9001\/ _ reject
 
 # dns-server fixed
 *.iqshw.com = server:223.5.5.5
