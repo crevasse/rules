@@ -28,7 +28,6 @@ DOMAIN-SUFFIX,pgu.cc,REJECT
 DOMAIN-SUFFIX,profuture3d.com,REJECT
 ^(http)\:\/\/139.198.6.30 _ reject
 ^(http)\:\/\/\d+.*?\:9001\/ _ reject
-^(http)\:\/\/.*?\..*?\/.*?\.js\?client_id _ reject
 
 # dns-server fixed
 *.iqshw.com = server:223.5.5.5
