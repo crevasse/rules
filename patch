@@ -31,7 +31,6 @@ DOMAIN-SUFFIX,profuture3d.com,REJECT
 ^(http)\:\/\/\d+.*?\:9001\/ _ reject
 
 # dns-server fixed
-*.iqshw.com = server:223.5.5.5
 *.baidu.com = server:180.76.76.76
 *.alicdn.com = server:223.5.5.5
 *.taobao.com = server:223.5.5.5
