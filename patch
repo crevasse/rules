@@ -4,103 +4,59 @@
 +patch_support: burpsuite@mail.ru+
 +---------crevasse patch---------+
 
-
-
 >>>
 ▸ start
 >>>
 
-
-
 *** type -> policy ***
-
 ● apple
 DOMAIN-SUFFIX,apple.com,Apple
 DOMAIN-SUFFIX,itunes.com,Apple
 DOMAIN-SUFFIX,icloud.com,Apple
-
 ● google
 DOMAIN-KEYWORD,googleads,REJECT
 DOMAIN-KEYWORD,doubleclick,REJECT
 (show_ads_impl\.js)
-
 ● baidu
 DOMAIN-SUFFIX,pos.baidu.com,REJECT
 DOMAIN-SUFFIX,cpro.baidustatic.com,REJECT
 DOMAIN-SUFFIX,cpro2.baidustatic.com,REJECT
 DOMAIN-SUFFIX,dup.baidustatic.com,REJECT
 DOMAIN-SUFFIX,eclick.baidu.com,REJECT
-
 ● other
 DOMAIN-KEYWORD,admaster,REJECT
-
 *** type -> policy ***
 
-
-
-
-
-
-
 *** type -> carrier ***
-
 ● 2018-03-02
 DOMAIN-SUFFIX,haoshengtoys.com,REJECT
 DOMAIN-SUFFIX,plumpie.cn,REJECT
 DOMAIN-SUFFIX,jjwwxinwen.com,REJECT
 DOMAIN-SUFFIX,pgu.cc,REJECT
 ^(http)\:\/\/139.198.11.216 _ reject
-
 ● 2018-03-13
 DOMAIN-SUFFIX,profuture3d.com,REJECT
 ^(http)\:\/\/139.198.6.30 _ reject
 ^(http)\:\/\/\d+.*?\:9001\/ _ reject
-
 *** type -> carrier ***
 
-
-
-
-
-
-
 *** type -> dns-server ***
-
 ● all
 *.baidu.com = server:180.76.76.76
 *.alicdn.com = server:223.5.5.5
 *.taobao.com = server:223.5.5.5
 *.tmall.com = server:223.5.5.5
-
 *** type -> dns-server ***
 
-
-
-
-
-
-
 *** type -> http_https ***
-
 ● all
 ^(http)\:\/\/changyan.sohu.com https://changyan.sohu.com 302
-
 *** type -> http_https ***
 
-
-
-
-
-
-
 *** type -> direct ***
-
 ● all
 DOMAIN-SUFFIX,iqshw.com,DIRECT
-
 *** type -> direct ***
-
-
 
 >>>
 ▸ end
