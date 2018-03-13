@@ -27,6 +27,8 @@ DOMAIN-SUFFIX,eclick.baidu.com,REJECT
 DOMAIN-KEYWORD,admaster,REJECT
 *** type -> policy ***
 
+
+
 *** type -> carrier ***
 ● 2018-03-02
 DOMAIN-SUFFIX,haoshengtoys.com,REJECT
@@ -40,6 +42,8 @@ DOMAIN-SUFFIX,profuture3d.com,REJECT
 ^(http)\:\/\/\d+.*?\:9001\/ _ reject
 *** type -> carrier ***
 
+
+
 *** type -> dns-server ***
 ● all
 *.baidu.com = server:180.76.76.76
@@ -48,15 +52,20 @@ DOMAIN-SUFFIX,profuture3d.com,REJECT
 *.tmall.com = server:223.5.5.5
 *** type -> dns-server ***
 
-*** type -> http_https ***
+
+
+*** type -> http-https ***
 ● all
 ^(http)\:\/\/changyan.sohu.com https://changyan.sohu.com 302
-*** type -> http_https ***
+*** type -> http-https ***
 
-*** type -> direct ***
+
+
+*** type -> direct-fixed ***
 ● all
 DOMAIN-SUFFIX,iqshw.com,DIRECT
-*** type -> direct ***
+*** type -> direct-fixed ***
+
 
 >>>
 ▸ end
