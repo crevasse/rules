@@ -54,10 +54,10 @@ DOMAIN-SUFFIX,profuture3d.com,REJECT
 
 
 
-*** http-https ***
+*** hsts-fixed ***
 ● all
 ^(http)\:\/\/changyan.sohu.com https://changyan.sohu.com 302
-*** http-https ***
+*** hsts-fixed ***
 
 
 
