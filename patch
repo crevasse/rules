@@ -8,7 +8,7 @@
 ▸ start
 >>>
 
-*** type -> policy ***
+*** policy ***
 ● apple
 DOMAIN-SUFFIX,apple.com,Apple
 DOMAIN-SUFFIX,itunes.com,Apple
@@ -25,11 +25,11 @@ DOMAIN-SUFFIX,dup.baidustatic.com,REJECT
 DOMAIN-SUFFIX,eclick.baidu.com,REJECT
 ● other
 DOMAIN-KEYWORD,admaster,REJECT
-*** type -> policy ***
+*** policy ***
 
 
 
-*** type -> carrier ***
+*** carrier ***
 ● 2018-03-02
 DOMAIN-SUFFIX,haoshengtoys.com,REJECT
 DOMAIN-SUFFIX,plumpie.cn,REJECT
@@ -40,31 +40,31 @@ DOMAIN-SUFFIX,pgu.cc,REJECT
 DOMAIN-SUFFIX,profuture3d.com,REJECT
 ^(http)\:\/\/139.198.6.30 _ reject
 ^(http)\:\/\/\d+.*?\:9001\/ _ reject
-*** type -> carrier ***
+*** carrier ***
 
 
 
-*** type -> dns-server ***
+*** dns-server ***
 ● all
 *.baidu.com = server:180.76.76.76
 *.alicdn.com = server:223.5.5.5
 *.taobao.com = server:223.5.5.5
 *.tmall.com = server:223.5.5.5
-*** type -> dns-server ***
+*** dns-server ***
 
 
 
-*** type -> http-https ***
+*** http-https ***
 ● all
 ^(http)\:\/\/changyan.sohu.com https://changyan.sohu.com 302
-*** type -> http-https ***
+*** http-https ***
 
 
 
-*** type -> direct-fixed ***
+*** direct-fixed ***
 ● all
 DOMAIN-SUFFIX,iqshw.com,DIRECT
-*** type -> direct-fixed ***
+*** direct-fixed ***
 
 >>>
 ▸ end
