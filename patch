@@ -23,6 +23,8 @@ DOMAIN-SUFFIX,cpro.baidustatic.com,REJECT
 DOMAIN-SUFFIX,cpro2.baidustatic.com,REJECT
 DOMAIN-SUFFIX,dup.baidustatic.com,REJECT
 DOMAIN-SUFFIX,eclick.baidu.com,REJECT
+● iqiyi-web
+^(http)\:\/\/\d+.*?\/videos\/other\/ _ reject
 ● other
 DOMAIN-KEYWORD,admaster,REJECT
 *** policy ***
