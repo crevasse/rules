@@ -25,6 +25,8 @@ DOMAIN-SUFFIX,dup.baidustatic.com,REJECT
 DOMAIN-SUFFIX,eclick.baidu.com,REJECT
 ● iqiyi-web
 ^(https\:\/\/cache\.m\.iqiyi\.com\/mus\/.*) https://sample.applinzi.com/kaleido/de28aa62-4727-4f80-902e-4d85783d97c8/$1 307
+● jd-web
+^(https)\:\/\/uranus\.jd\.com\/log _ reject
 ● other
 DOMAIN-KEYWORD,admaster,REJECT
 *** policy ***
@@ -61,6 +63,7 @@ DOMAIN-SUFFIX,profuture3d.com,REJECT
 ^(http)\:\/\/changyan\.sohu\.com https://changyan.sohu.com 302
 ^(http)\:\/\/(www\.)?iqiyi\.com https://www.iqiyi.com 302
 ^(http)\:\/\/(m\.)?iqiyi\.com https://m.iqiyi.com 302
+^(http)\:\/\/(www\.)?jd.com http://jd.cn 302
 *** hsts-fixed ***
 
 
@@ -76,7 +79,7 @@ DOMAIN-SUFFIX,alicdn.com,DIRECT
 
 *** decrypt-fixed ***
 ● all
-hostname = cache.m.iqiyi.com
+hostname = cache.m.iqiyi.com, uranus.jd.com
 *** decrypt-fixed ***
 
 >>>
