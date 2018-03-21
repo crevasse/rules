@@ -24,7 +24,6 @@ DOMAIN-SUFFIX,cpro2.baidustatic.com,REJECT
 DOMAIN-SUFFIX,dup.baidustatic.com,REJECT
 DOMAIN-SUFFIX,eclick.baidu.com,REJECT
 ● iqiyi-web
-^(http\:\/\/cache\.m\.iqiyi\.com\/mus\/.*) http://sample.applinzi.com/kaleido/4e4c1533-b5ef-465a-ade0-efd14e6e79af/$1 307
 ^(https\:\/\/cache\.m\.iqiyi\.com\/mus\/.*) https://sample.applinzi.com/kaleido/de28aa62-4727-4f80-902e-4d85783d97c8/$1 307
 ● other
 DOMAIN-KEYWORD,admaster,REJECT
