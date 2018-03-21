@@ -58,7 +58,9 @@ DOMAIN-SUFFIX,profuture3d.com,REJECT
 
 *** hsts-fixed ***
 ● all
-^(http)\:\/\/changyan.sohu.com https://changyan.sohu.com 302
+^(http)\:\/\/changyan\.sohu\.com https://changyan.sohu.com 302
+^(http)\:\/\/(www\.)?iqiyi\.com https://iqiyi.com 302
+^(http)\:\/\/(m\.)?iqiyi\.com https://m.iqiyi.com 302
 *** hsts-fixed ***
 
 
