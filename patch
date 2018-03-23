@@ -28,7 +28,7 @@ DOMAIN-SUFFIX,eclick.baidu.com,REJECT
 ● youku-web
 ^(https\:\/\/pl\-ali\.youku\.com\/playlist\/m3u8\?.*) https://sample.applinzi.com/kaleido/3cb3af55-12c3-45ea-9c80-e9f828dbe80e/$1 307
 ● tencent_video-web
-^(https\:\/\/livew\.l\.qq\.com\/livemsg\?.*) https://sample.applinzi.com/kaleido/8ded7565-0625-46ce-a50e-a181434e2df0 307
+^(https\:\/\/livew\.l\.qq\.com\/livemsg\?.*) https://sample.applinzi.com/kaleido/8ded7565-0625-46ce-a50e-a181434e2df0/$1 307
 ● jd-web
 ^(http)\:\/\/(www\.)?jd\.com http://jd.cn 302
 ^(https)\:\/\/uranus\.jd\.com\/log _ reject
