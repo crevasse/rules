@@ -25,6 +25,8 @@ DOMAIN-SUFFIX,dup.baidustatic.com,REJECT
 DOMAIN-SUFFIX,eclick.baidu.com,REJECT
 ● iqiyi-web
 ^(https\:\/\/cache\.m\.iqiyi\.com\/mus\/.*) https://sample.applinzi.com/kaleido/de28aa62-4727-4f80-902e-4d85783d97c8/$1 307
+● youku-web
+^(https\:\/\/pl\-ali\.youku\.com\/playlist\/m3u8\?.*) https://sample.applinzi.com/kaleido/3cb3af55-12c3-45ea-9c80-e9f828dbe80e/$1 307
 ● jd-web
 ^(http)\:\/\/(www\.)?jd\.com http://jd.cn 302
 ^(https)\:\/\/uranus\.jd\.com\/log _ reject
