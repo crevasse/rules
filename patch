@@ -81,7 +81,7 @@ DOMAIN-SUFFIX,alicdn.com,DIRECT
 
 *** decrypt-fixed ***
 ● all
-hostname = cache.m.iqiyi.com, uranus.jd.com
+hostname = cache.m.iqiyi.com, uranus.jd.com, pl-ali.youku.com
 *** decrypt-fixed ***
 
 >>>
