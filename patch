@@ -23,12 +23,14 @@ DOMAIN-SUFFIX,cpro.baidustatic.com,REJECT
 DOMAIN-SUFFIX,cpro2.baidustatic.com,REJECT
 DOMAIN-SUFFIX,dup.baidustatic.com,REJECT
 DOMAIN-SUFFIX,eclick.baidu.com,REJECT
-● iqiyi-web
+● iqiyi_video-web
 ^(https\:\/\/cache\.m\.iqiyi\.com\/mus\/.*) https://sample.applinzi.com/kaleido/de28aa62-4727-4f80-902e-4d85783d97c8/$1 307
-● youku-web
+● youku_video-web
 ^(https\:\/\/pl\-ali\.youku\.com\/playlist\/m3u8\?.*) https://sample.applinzi.com/kaleido/3cb3af55-12c3-45ea-9c80-e9f828dbe80e/$1 307
 ● tencent_video-web
 ^(https\:\/\/livew\.l\.qq\.com\/livemsg\?.*) https://sample.applinzi.com/kaleido/8ded7565-0625-46ce-a50e-a181434e2df0/$1 307
+● sohu_video-web
+^(https\:\/\/m\.aty\.sohu\.com\/h\?.*) https://sample.applinzi.com/kaleido/efe1cb00-7db6-42f4-b74e-486ba21504da/$1 307
 ● jd-web
 ^(http)\:\/\/(www\.)?jd\.com http://jd.cn 302
 ^(https)\:\/\/uranus\.jd\.com\/log _ reject
@@ -83,7 +85,7 @@ DOMAIN-SUFFIX,alicdn.com,DIRECT
 
 *** decrypt-fixed ***
 ● all
-hostname = cache.m.iqiyi.com, uranus.jd.com, pl-ali.youku.com, livew.l.qq.com
+hostname = cache.m.iqiyi.com, uranus.jd.com, pl-ali.youku.com, livew.l.qq.com, m.aty.sohu.com
 *** decrypt-fixed ***
 
 >>>
