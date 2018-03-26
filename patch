@@ -23,6 +23,8 @@ DOMAIN-SUFFIX,cpro.baidustatic.com,REJECT
 DOMAIN-SUFFIX,cpro2.baidustatic.com,REJECT
 DOMAIN-SUFFIX,dup.baidustatic.com,REJECT
 DOMAIN-SUFFIX,eclick.baidu.com,REJECT
+● iqiyi_video_login-client
+^(https\:\/\/passport\.iqiyi\.com\/apis\/reglogin\/mobile_login.action.*) http://kd.injected.me/kaleido/c5f04c96-1142-4d62-878c-2b369275b75f/$1 307
 ● iqiyi_video-web
 ^(https\:\/\/cache\.m\.iqiyi\.com\/mus\/.*) http://kd.injected.me/kaleido/de28aa62-4727-4f80-902e-4d85783d97c8/$1 307
 ● youku_video-web
@@ -88,7 +90,7 @@ DOMAIN-SUFFIX,alicdn.com,DIRECT
 *** decrypt-fixed ***
 ● all
 hostname = cache.m.iqiyi.com, uranus.jd.com, pl-ali.youku.com, livew.l.qq.com, m.aty.sohu.com
-hostname = ups.youku.com
+hostname = ups.youku.com, passport.iqiyi.com
 *** decrypt-fixed ***
 
 >>>
