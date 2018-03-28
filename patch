@@ -89,7 +89,7 @@ DOMAIN-SUFFIX,alicdn.com,DIRECT
 *** decrypt-fixed ***
 ● all
 hostname = cache.m.iqiyi.com, uranus.jd.com, pl-ali.youku.com, livew.l.qq.com, m.aty.sohu.com
-hostname = ups.youku.com, passport.iqiyi.com
+hostname = ups.youku.com, passport.iqiyi.com, a.applovin.com
 *** decrypt-fixed ***
 
 >>>
