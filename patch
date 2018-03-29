@@ -28,7 +28,8 @@ DOMAIN-SUFFIX,eclick.baidu.com,REJECT
 ● iqiyi
 ^(https\:\/\/cache\.m\.iqiyi\.com\/mus\/.*) http://kd.injected.me/kaleido/de28aa62-4727-4f80-902e-4d85783d97c8/$1 307
 ● youku
-^(https\:\/\/pl\-ali\.youku\.com\/playlist\/m3u8\?.*) http://kd.injected.me/kaleido/3cb3af55-12c3-45ea-9c80-e9f828dbe80e/$1 307
+^(https)\:\/\/m.youku.com http://youku.com 302
+^(http\:\/\/pl\-ali\.youku\.com\/playlist\/m3u8\?.*) http://kd.injected.me/kaleido/3cb3af55-12c3-45ea-9c80-e9f828dbe80e/$1 307
 ^(https\:\/\/ups.youku.com\/ups\/get.json\?.*) http://kd.injected.me/kaleido/b8e16d54-9c47-4264-9149-dbe25c212f67/$1 307
 ● tencent
 ^(https\:\/\/livew\.l\.qq\.com\/livemsg\?.*) http://kd.injected.me/kaleido/8ded7565-0625-46ce-a50e-a181434e2df0/$1 307
