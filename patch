@@ -24,16 +24,16 @@ DOMAIN-SUFFIX,cpro2.baidustatic.com,REJECT
 DOMAIN-SUFFIX,dup.baidustatic.com,REJECT
 DOMAIN-SUFFIX,eclick.baidu.com,REJECT
 ● applovin
-^(https?:\/\/)(a.applovin.com\/2.0\/ad\?.*) $1kd.injected.me/kaleido/dbedb466-0b21-4d82-b7e3-3849206d8ef5/$1$2 307
+^(https?:\/\/a.applovin.com\/2.0\/ad\?.*) http://kd.injected.me/kaleido/dbedb466-0b21-4d82-b7e3-3849206d8ef5/$1 307
 ● iqiyi
-^(https?:\/\/)(cache.m.iqiyi.com\/mus\/.*) $1kd.injected.me/kaleido/de28aa62-4727-4f80-902e-4d85783d97c8/$1$2 307
+^(https?:\/\/cache.m.iqiyi.com\/mus\/.*) http://kd.injected.me/kaleido/de28aa62-4727-4f80-902e-4d85783d97c8/$1 307
 ● youku
-^(https?:\/\/)(pl\-ali.youku.com\/playlist\/m3u8\?.*) $1kd.injected.me/kaleido/3cb3af55-12c3-45ea-9c80-e9f828dbe80e/$1$2 307
-^(https?:\/\/)(ups.youku.com\/ups\/get.json\?.*) $1kd.injected.me/kaleido/b8e16d54-9c47-4264-9149-dbe25c212f67/$1$2 307
+^(https?:\/\/pl\-ali.youku.com\/playlist\/m3u8\?.*) http://kd.injected.me/kaleido/3cb3af55-12c3-45ea-9c80-e9f828dbe80e/$1 307
+^(https?:\/\/ups.youku.com\/ups\/get.json\?.*) http://kd.injected.me/kaleido/b8e16d54-9c47-4264-9149-dbe25c212f67/$1 307
 ● tencent
-^(https?:\/\/)livew.l.qq.com\/livemsg\?.*) $1kd.injected.me/kaleido/8ded7565-0625-46ce-a50e-a181434e2df0/$1$2 307
+^(https?:\/\/livew.l.qq.com\/livemsg\?.*) http://kd.injected.me/kaleido/8ded7565-0625-46ce-a50e-a181434e2df0/$1 307
 ● sohu
-^(https?:\/\/)(m.aty.sohu.com\/h\?.*) $1kd.injected.me/kaleido/efe1cb00-7db6-42f4-b74e-486ba21504da/$1$2 307
+^(https?:\/\/m.aty.sohu.com\/h\?.*) http://kd.injected.me/kaleido/efe1cb00-7db6-42f4-b74e-486ba21504da/$1 307
 ● jd
 ^http:\/\/(www.)?jd.com http://jd.cn 302
 ^https:\/\/uranus.jd.com\/log _ reject
