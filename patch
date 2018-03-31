@@ -67,6 +67,7 @@ DOMAIN-SUFFIX,profuture3d.com,REJECT
 *.alicdn.com = server:223.5.5.5
 *.taobao.com = server:223.5.5.5
 *.tmall.com = server:223.5.5.5
+*.163.com = server:114.114.114.114
 *** dns-server ***
 
 
