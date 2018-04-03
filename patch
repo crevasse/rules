@@ -28,6 +28,7 @@ DOMAIN-SUFFIX,eclick.baidu.com,REJECT
 ● iqiyi
 ^(https?:\/\/cache.m.iqiyi.com\/mus\/.*) http://kd.injected.me/kaleido/de28aa62-4727-4f80-902e-4d85783d97c8/$1 307
 ● youku
+IP-CIDR,198.11.132.53/24,DIRECT
 ^https:\/\/m.youku.com http://m.youku.com 302
 ^(https?:\/\/pl-ali.youku.com\/playlist\/m3u8\?.*) http://kd.injected.me/kaleido/3cb3af55-12c3-45ea-9c80-e9f828dbe80e/$1 307
 ^(https?:\/\/g.alicdn.com\/player\/h5phoneplayer\/1.6.2\/js\/h5phoneplayer.min.js) http://ogtre5vp0.bkt.clouddn.com/cdn/player/h5phoneplayer/1.6.2/js/h5phoneplayer.min.js 302
