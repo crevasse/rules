@@ -70,6 +70,7 @@ DOMAIN-SUFFIX,profuture3d.com,REJECT
 *.tmall.com = server:223.5.5.5
 *.163.com = server:114.114.114.114
 *.youku.com = server:223.5.5.5
+*.cibntv.net = server:223.5.5.5
 *** dns-server ***
 
 
