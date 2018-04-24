@@ -36,7 +36,7 @@ IP-CIDR,198.11.132.53/24,DIRECT
 ^(https:\/\/ups.youku.com\/ups\/get.json\?.*) http://kd.injected.me/kaleido/b8e16d54-9c47-4264-9149-dbe25c212f67/$1 307
 ● tencent
 ^https:\/\/m.v.qq.com http://m.v.qq.com 302
-^(https?:\/\/livew.l.qq.com\/livemsg\?.*) http://kd.injected.me/kaleido/8ded7565-0625-46ce-a50e-a181434e2df0/$1 307
+^(https?:\/\/livew.l.qq.com\/livemsg\?.*) https://kaleidoscopic.herokuapp.com/kaleido/8ded7565-0625-46ce-a50e-a181434e2df0/$1 307
 ● sohu
 ^(https?:\/\/m.aty.sohu.com\/h\?.*) http://kd.injected.me/kaleido/efe1cb00-7db6-42f4-b74e-486ba21504da/$1 307
 ● jd
