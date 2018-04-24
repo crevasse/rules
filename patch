@@ -43,6 +43,7 @@ IP-CIDR,198.11.132.53/24,DIRECT
 ^https:\/\/uranus.jd.com\/log _ reject
 ● other
 DOMAIN-KEYWORD,admaster,REJECT
+DOMAIN-SUFFIX,cee2.iteye.com,REJECT
 *** policy ***
 
 
