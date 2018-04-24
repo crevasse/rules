@@ -29,6 +29,7 @@ DOMAIN-SUFFIX,eclick.baidu.com,REJECT
 ^(https?:\/\/cache.m.iqiyi.com\/mus\/.*) http://kd.injected.me/kaleido/de28aa62-4727-4f80-902e-4d85783d97c8/$1 307
 ^(https?:\/\/t7z.cupid.iqiyi.com\/show2\?.*) https://kaleidoscopic.herokuapp.com/kaleido/bfab1f8e-5a54-4817-aa19-1cad3371ecdf/$1 307
 ● youku
+DOMAIN-SUFFIX,atm.youku.com,REJECT
 IP-CIDR,198.11.132.53/24,DIRECT
 ^https:\/\/m.youku.com http://m.youku.com 302
 ^(https?:\/\/pl-ali.youku.com\/playlist\/m3u8\?.*) http://kd.injected.me/kaleido/3cb3af55-12c3-45ea-9c80-e9f828dbe80e/$1 307
