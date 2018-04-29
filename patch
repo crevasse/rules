@@ -13,6 +13,7 @@
 DOMAIN-SUFFIX,apple.com,Apple
 DOMAIN-SUFFIX,itunes.com,Apple
 DOMAIN-SUFFIX,icloud.com,Apple
+DOMAIN-SUFFIX,mzstatic.com,Apple
 ● google
 DOMAIN-KEYWORD,googleads,REJECT
 DOMAIN-KEYWORD,doubleclick,REJECT
