@@ -27,26 +27,26 @@ DOMAIN-SUFFIX,cpro2.baidustatic.com,REJECT
 DOMAIN-SUFFIX,dup.baidustatic.com,REJECT
 DOMAIN-SUFFIX,eclick.baidu.com,REJECT
 ● applovin
-^(https?:\/\/a.applovin.com\/2.0\/ad\?.*) http://kd.injected.me/kaleido/dbedb466-0b21-4d82-b7e3-3849206d8ef5/$1 307
+^(https?://a.applovin.com/2.0/ad\?.*) http://kd.injected.me/kaleido/dbedb466-0b21-4d82-b7e3-3849206d8ef5/$1 307
 ● iqiyi
-^(https?:\/\/cache.m.iqiyi.com\/mus\/.*) http://kd.injected.me/kaleido/de28aa62-4727-4f80-902e-4d85783d97c8/$1 307
-^(https?:\/\/t7z.cupid.iqiyi.com\/show2\?.*) https://kaleidoscopic.herokuapp.com/kaleido/bfab1f8e-5a54-4817-aa19-1cad3371ecdf/$1 307
+^(https?://cache.m.iqiyi.com/mus/.*) http://kd.injected.me/kaleido/de28aa62-4727-4f80-902e-4d85783d97c8/$1 307
+^(https?://t7z.cupid.iqiyi.com/show2\?.*) https://kaleidoscopic.herokuapp.com/kaleido/bfab1f8e-5a54-4817-aa19-1cad3371ecdf/$1 307
 ● youku
 DOMAIN-SUFFIX,atm.youku.com,REJECT
 IP-CIDR,198.11.132.53/24,DIRECT
 IP-CIDR,103.38.59.20/24,Proxy
-^https:\/\/m.youku.com http://m.youku.com 302
-^(https?:\/\/pl-ali.youku.com\/playlist\/m3u8\?.*) http://kd.injected.me/kaleido/3cb3af55-12c3-45ea-9c80-e9f828dbe80e/$1 307
-^(https?:\/\/g.alicdn.com\/player\/h5phoneplayer\/1.6.2\/js\/h5phoneplayer.min.js) http://ogtre5vp0.bkt.clouddn.com/cdn/player/h5phoneplayer/1.6.2/js/h5phoneplayer.min.js 302
-^(https:\/\/ups.youku.com\/ups\/get.json\?.*) http://kd.injected.me/kaleido/b8e16d54-9c47-4264-9149-dbe25c212f67/$1 307
+^https://m.youku.com http://m.youku.com 302
+^(https?://pl-ali.youku.com/playlist/m3u8\?.*) http://kd.injected.me/kaleido/3cb3af55-12c3-45ea-9c80-e9f828dbe80e/$1 307
+^(https?://g.alicdn.com/player/h5phoneplayer/1.6.2/js/h5phoneplayer.min.js) http://ogtre5vp0.bkt.clouddn.com/cdn/player/h5phoneplayer/1.6.2/js/h5phoneplayer.min.js 302
+^(https://ups.youku.com/ups/get.json\?.*) http://kd.injected.me/kaleido/b8e16d54-9c47-4264-9149-dbe25c212f67/$1 307
 ● tencent
-^https:\/\/m.v.qq.com http://m.v.qq.com 302
-^(https?:\/\/livew.l.qq.com\/livemsg\?.*) https://kaleidoscopic.herokuapp.com/kaleido/8ded7565-0625-46ce-a50e-a181434e2df0/$1 307
+^https://m.v.qq.com http://m.v.qq.com 302
+^(https?://livew.l.qq.com/livemsg\?.*) https://kaleidoscopic.herokuapp.com/kaleido/8ded7565-0625-46ce-a50e-a181434e2df0/$1 307
 ● sohu
-^(https?:\/\/m.aty.sohu.com\/h\?.*) http://kd.injected.me/kaleido/efe1cb00-7db6-42f4-b74e-486ba21504da/$1 307
+^(https?://m.aty.sohu.com/h\?.*) http://kd.injected.me/kaleido/efe1cb00-7db6-42f4-b74e-486ba21504da/$1 307
 ● jd
-^http:\/\/(www.)?jd.com http://jd.cn 302
-^https:\/\/uranus.jd.com\/log _ reject
+^http://(www.)?jd.com http://jd.cn 302
+^https://uranus.jd.com/log _ reject
 ● other
 DOMAIN-KEYWORD,admaster,REJECT
 DOMAIN-SUFFIX,cee2.iteye.com,REJECT
@@ -60,11 +60,11 @@ DOMAIN-SUFFIX,haoshengtoys.com,REJECT
 DOMAIN-SUFFIX,plumpie.cn,REJECT
 DOMAIN-SUFFIX,jjwwxinwen.com,REJECT
 DOMAIN-SUFFIX,pgu.cc,REJECT
-^(http)\:\/\/139.198.11.216 _ reject
+^(http)\://139.198.11.216 _ reject
 ● 2018-03-13
 DOMAIN-SUFFIX,profuture3d.com,REJECT
-^(http)\:\/\/139.198.6.30 _ reject
-^(http)\:\/\/\d+.*?\:9001\/ _ reject
+^(http)\://139.198.6.30 _ reject
+^(http)\://\d+.*?\:9001/ _ reject
 *** carrier ***
 
 
@@ -84,9 +84,9 @@ DOMAIN-SUFFIX,profuture3d.com,REJECT
 
 *** hsts-fixed ***
 ● all
-^(http):\/\/changyan.sohu.com https://changyan.sohu.com 302
-^(http):\/\/(www.)?iqiyi.com https://www.iqiyi.com 302
-^(http):\/\/m.iqiyi.com https://m.iqiyi.com 302
+^(http)://changyan.sohu.com https://changyan.sohu.com 302
+^(http)://(www.)?iqiyi.com https://www.iqiyi.com 302
+^(http)://m.iqiyi.com https://m.iqiyi.com 302
 *** hsts-fixed ***
 
 
