@@ -16,6 +16,7 @@ DOMAIN-SUFFIX,icloud.com,Apple
 DOMAIN-SUFFIX,mzstatic.com,Apple
 DOMAIN-SUFFIX,icloud-content.com,Apple
 ● google
+DOMAIN-SUFFIX,adservice.google.com,REJECT
 DOMAIN-KEYWORD,googleads,REJECT
 DOMAIN-KEYWORD,doubleclick,REJECT
 (show_ads_impl\.js)
