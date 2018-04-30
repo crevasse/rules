@@ -47,6 +47,8 @@ IP-CIDR,103.38.59.20/24,Proxy
 ● jd
 ^http://(www.)?jd.com http://jd.cn 302
 ^https://uranus.jd.com/log _ reject
+● spotify
+DOMAIN-SUFFIX,doubleverify.com,REJECT
 ● other
 DOMAIN-KEYWORD,admaster,REJECT
 DOMAIN-SUFFIX,cee2.iteye.com,REJECT
