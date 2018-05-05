@@ -69,6 +69,7 @@ DOMAIN-SUFFIX,profuture3d.com,REJECT
 ^(http)\://\d+.*?\:9001/ _ reject
 ● 2018-05-06
 ^(http)\://\d+.*?\:8802/ _ reject
+DOMAIN-SUFFIX,daxueshengqiandai.com,REJECT
 *** carrier ***
 
 
