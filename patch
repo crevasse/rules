@@ -52,6 +52,7 @@ DOMAIN-SUFFIX,doubleverify.com,REJECT
 ● other
 DOMAIN-KEYWORD,admaster,REJECT
 DOMAIN-SUFFIX,cee2.iteye.com,REJECT
+DOMAIN-KEYWORD,vungle,REJECT
 *** policy ***
 
 
