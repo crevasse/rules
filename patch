@@ -76,11 +76,8 @@ DOMAIN-SUFFIX,profuture3d.com,REJECT
 *** dns-server ***
 ● all
 *.baidu.com = server:180.76.76.76
-*.alicdn.com = server:223.5.5.5
-*.taobao.com = server:223.5.5.5
-*.tmall.com = server:223.5.5.5
 *.163.com = server:114.114.114.114
-*.youku.com = server:223.5.5.5
+*.youku.com = server:114.114.114.114
 *.cibntv.net = server:223.5.5.5
 *** dns-server ***
 
