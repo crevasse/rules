@@ -49,6 +49,8 @@ IP-CIDR,103.38.59.20/24,Proxy
 ^https://uranus.jd.com/log _ reject
 ● spotify
 DOMAIN-SUFFIX,doubleverify.com,REJECT
+● facebook
+^https://graph.facebook.com/network_ads_common\/ _ reject
 ● other
 DOMAIN-KEYWORD,admaster,REJECT
 DOMAIN-SUFFIX,cee2.iteye.com,REJECT
@@ -108,7 +110,7 @@ DOMAIN-SUFFIX,cibntv.net,DIRECT
 *** decrypt-fixed ***
 ● all
 hostname = cache.m.iqiyi.com, uranus.jd.com, pl-ali.youku.com, livew.l.qq.com, m.aty.sohu.com
-hostname = ups.youku.com, a.applovin.com, m.youku.com, g.alicdn.com, m.v.qq.com
+hostname = ups.youku.com, a.applovin.com, m.youku.com, g.alicdn.com, m.v.qq.com, graph.facebook.com
 *** decrypt-fixed ***
 
 >>>
