@@ -53,6 +53,8 @@ DOMAIN-SUFFIX,doubleverify.com,REJECT
 DOMAIN-KEYWORD,admaster,REJECT
 DOMAIN-SUFFIX,cee2.iteye.com,REJECT
 DOMAIN-KEYWORD,vungle,REJECT
+DOMAIN-SUFFIX,fyber.com,REJECT
+DOMAIN-SUFFIX,sponsorpay.com,REJECT
 *** policy ***
 
 
