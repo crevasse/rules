@@ -33,6 +33,7 @@ DOMAIN-SUFFIX,eclick.baidu.com,REJECT
 ^(https?://t7z.cupid.iqiyi.com/show2\?.*) https://kaleidoscopic.herokuapp.com/kaleido/bfab1f8e-5a54-4817-aa19-1cad3371ecdf/$1 307
 ● youku
 DOMAIN-SUFFIX,atm.youku.com,REJECT
+IP-CIDR,45.112.214.0/24,Proxy
 IP-CIDR,103.38.56.0/24,Proxy
 IP-CIDR,198.11.128.0/18,Proxy
 IP-CIDR,198.11.132.0/24,Proxy
