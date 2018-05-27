@@ -115,6 +115,12 @@ hostname = cache.m.iqiyi.com, uranus.jd.com, pl-ali.youku.com, livew.l.qq.com, m
 hostname = ups.youku.com, a.applovin.com, m.youku.com, g.alicdn.com, m.v.qq.com, graph.facebook.com
 *** decrypt-fixed ***
 
+
+
+*** options ***
+● all
+allow-wifi-access = true
+
 >>>
 ▸ end
 >>>
