@@ -1,5 +1,4 @@
 # crevasse/simple
-`conf`格式crevasse simple条目列表
 
 ## 列表类型
 * PROXY
