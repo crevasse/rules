@@ -1,15 +1,15 @@
 # crevasse/simple
 
-## 列表类型
+## 类型
 * PROXY
 * DIRECT
 
-## 列表信息
+## 信息
 * `PROXY`&nbsp;&nbsp;&nbsp;包含 [Cisco Umbrella](http://s3-us-west-1.amazonaws.com/umbrella-static/index.html) `Global` 百万人气列表 `5000+`
 * `PROXY`&nbsp;&nbsp;&nbsp;包含 [Alexa Top Sites](https://aws.amazon.com/alexa-top-sites/?nc1=f_ls) `United States` 热门排行 `500+`
 * `DIRECT` 包含 [Alexa Top Sites](https://aws.amazon.com/alexa-top-sites/?nc1=f_ls) `China` 热门排行 `500+`
 
-## 条目来源
+## 来源
 * Cisco Umbrella
 
 ```text
