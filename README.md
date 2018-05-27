@@ -6,9 +6,9 @@
 * DIRECT
 
 ## 列表信息
-* `PROXY` 选用 [Cisco Umbrella](http://s3-us-west-1.amazonaws.com/umbrella-static/index.html) `Global` 百万人气列表 `5000+`
-* `PROXY` 选用 [Alexa Top Sites](https://aws.amazon.com/alexa-top-sites/?nc1=f_ls) `United States` 热门排行 `500+`
-* `DIRECT` 选用 [Alexa Top Sites](https://aws.amazon.com/alexa-top-sites/?nc1=f_ls) `China` 热门排行 `500+`
+* `PROXY` 包含 [Cisco Umbrella](http://s3-us-west-1.amazonaws.com/umbrella-static/index.html) `Global` 百万人气列表 `5000+`
+* `PROXY` 包含 [Alexa Top Sites](https://aws.amazon.com/alexa-top-sites/?nc1=f_ls) `United States` 热门排行 `500+`
+* `DIRECT` 包含 [Alexa Top Sites](https://aws.amazon.com/alexa-top-sites/?nc1=f_ls) `China` 热门排行 `500+`
 
 ## 条目来源
 * Cisco Umbrella
