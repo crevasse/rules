@@ -77,9 +77,9 @@ DOMAIN-SUFFIX,profuture3d.com,REJECT
 ● 2018-05-06
 ^(http)\://\d+.*?\:8802/ _ reject
 ● 2018-06-06
-^(http)\://\d+.*?\:8081/ _ reject
 DOMAIN-SUFFIX,sifuhe.cn,REJECT
 ^(http)\://183.207.103.130 _ reject
+^(http)\://\d+.*?\:8081/ _ reject
 *** carrier ***
 
 
