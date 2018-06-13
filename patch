@@ -80,6 +80,17 @@ DOMAIN-SUFFIX,profuture3d.com,REJECT
 DOMAIN-SUFFIX,sifuhe.cn,REJECT
 ^(http)\://183.207.103.130 _ reject
 ^(http)\://\d+.*?\:8081/ _ reject
+● 2018-06-13
+DOMAIN-SUFFIX,58mingtian.cn,REJECT
+DOMAIN-SUFFIX,58mingri.cn,REJECT
+DOMAIN-SUFFIX,taoyuanxiaozhen.cn,REJECT
+DOMAIN-SUFFIX,0595yf.com,REJECT
+DOMAIN-SUFFIX,imyunxi.cn,REJECT
+DOMAIN-SUFFIX,zzd6.com,REJECT
+DOMAIN-SUFFIX,xiaohuau.xyz,REJECT
+DOMAIN-SUFFIX,akuai.top,REJECT
+DOMAIN-SUFFIX,0love.cn,REJECT
+DOMAIN-SUFFIX,tukexiu.com,REJECT
 *** carrier ***
 
 
