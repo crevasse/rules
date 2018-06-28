@@ -137,6 +137,7 @@ DOMAIN-SUFFIX,cibntv.net,DIRECT
 ● all
 hostname = cache.m.iqiyi.com, uranus.jd.com, pl-ali.youku.com, livew.l.qq.com, m.aty.sohu.com
 hostname = ups.youku.com, a.applovin.com, m.youku.com, g.alicdn.com, m.v.qq.com, graph.facebook.com
+hostname = t7z.cupid.iqiyi.com
 *** decrypt-fixed ***
 
 
