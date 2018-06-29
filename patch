@@ -1,35 +1,34 @@
-+---------crevasse patch---------+
-|patch_source: burpsuite_@private|
-|create_time: 2018-03-14 01:20:56|
-|patch_support: burpsuite@mail.ru|
-+---------crevasse patch---------+
-
 >>>
 ▸ start
 >>>
 
 *** policy ***
-● apple
+
+● 苹果
 DOMAIN-SUFFIX,apple.com,Apple
 DOMAIN-SUFFIX,itunes.com,Apple
 DOMAIN-SUFFIX,icloud.com,Apple
 DOMAIN-SUFFIX,mzstatic.com,Apple
 DOMAIN-SUFFIX,icloud-content.com,Apple
-● google
+
+● 谷歌
 DOMAIN-SUFFIX,adservice.google.com,REJECT
 DOMAIN-KEYWORD,googleads,REJECT
 DOMAIN-KEYWORD,doubleclick,REJECT
 (show_ads_impl\.js)
-● baidu
+
+● 百度
 DOMAIN-SUFFIX,pos.baidu.com,REJECT
 DOMAIN-SUFFIX,cpro.baidustatic.com,REJECT
 DOMAIN-SUFFIX,cpro2.baidustatic.com,REJECT
 DOMAIN-SUFFIX,dup.baidustatic.com,REJECT
 DOMAIN-SUFFIX,eclick.baidu.com,REJECT
-● iqiyi
+
+● 爱奇艺视频
 ^(https?://cache.m.iqiyi.com/mus/.*) http://kd.injected.me/kaleido/5b2fd96c13bc4/$1 307
 ^(https?://t7z.cupid.iqiyi.com/show2\?.*) https://kaleidoscopic.herokuapp.com/kaleido/5b2fd9240870b/$1 307
-● youku
+
+● 优酷视频
 DOMAIN-SUFFIX,atm.youku.com,REJECT
 IP-CIDR,45.112.214.0/24,Proxy
 IP-CIDR,103.38.56.0/24,Proxy
@@ -39,24 +38,31 @@ IP-CIDR,198.11.132.0/24,Proxy
 ^(https?://pl-ali.youku.com/playlist/m3u8\?.*) http://kd.injected.me/kaleido/5b2fd960942dd/$1 307
 ^(https?://g.alicdn.com/player/h5phoneplayer/1.6.2/js/h5phoneplayer.min.js) http://ogtre5vp0.bkt.clouddn.com/cdn/player/h5phoneplayer/1.6.2/js/h5phoneplayer.min.js 302
 ^(https://ups.youku.com/ups/get.json\?.*) http://kd.injected.me/kaleido/5b2fd94dd1e50/$1 307
-● tencent
+
+● 腾讯视频
 ^https://m.v.qq.com http://m.v.qq.com 302
 ^(https?://livew.l.qq.com/livemsg\?.*) https://kaleidoscopic.herokuapp.com/kaleido/5b2fd955f20a9/$1 307
-● sohu
+
+● 搜狐视频
 ^(https?://m.aty.sohu.com/h\?.*) http://kd.injected.me/kaleido/5b2fd9403a905/$1 307
-● jd
+
+● 京东
 ^http://(www.)?jd.com http://jd.cn 302
 ^https://uranus.jd.com/log _ reject
+
 ● spotify
 DOMAIN-SUFFIX,doubleverify.com,REJECT
+
 ● facebook
 ^https://graph.facebook.com/network_ads_common\/ _ reject
-● other
+
+● 其他
 DOMAIN-KEYWORD,admaster,REJECT
 DOMAIN-SUFFIX,cee2.iteye.com,REJECT
 DOMAIN-KEYWORD,vungle,REJECT
 DOMAIN-SUFFIX,fyber.com,REJECT
 DOMAIN-SUFFIX,sponsorpay.com,REJECT
+
 *** policy ***
 
 
@@ -104,7 +110,7 @@ DOMAIN-SUFFIX,klz28.com,REJECT
 
 
 *** dns-server ***
-● all
+● 全部
 *.baidu.com = server:180.76.76.76
 *.163.com = server:114.114.114.114
 *.youku.com = server:114.114.114.114
@@ -114,7 +120,7 @@ DOMAIN-SUFFIX,klz28.com,REJECT
 
 
 *** hsts-fixed ***
-● all
+● 全部
 ^(http)://changyan.sohu.com https://changyan.sohu.com 302
 ^(http)://(www.)?iqiyi.com https://www.iqiyi.com 302
 ^(http)://m.iqiyi.com https://m.iqiyi.com 302
@@ -123,7 +129,7 @@ DOMAIN-SUFFIX,klz28.com,REJECT
 
 
 *** direct-fixed ***
-● all
+● 全部
 DOMAIN-SUFFIX,iqshw.com,DIRECT
 DOMAIN-SUFFIX,taobao.com,DIRECT
 DOMAIN-SUFFIX,alicdn.com,DIRECT
@@ -132,17 +138,17 @@ DOMAIN-SUFFIX,cibntv.net,DIRECT
 
 
 
-*** decrypt-fixed ***
-● all
+*** decrypt-hosts ***
+● 全部
 hostname = cache.m.iqiyi.com, uranus.jd.com, pl-ali.youku.com, livew.l.qq.com, m.aty.sohu.com
 hostname = ups.youku.com, a.applovin.com, m.youku.com, g.alicdn.com, m.v.qq.com, graph.facebook.com
 hostname = t7z.cupid.iqiyi.com
-*** decrypt-fixed ***
+*** decrypt-hosts ***
 
 
 
 *** options ***
-● all
+● 全部
 allow-wifi-access = true
 
 >>>
