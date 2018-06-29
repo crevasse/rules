@@ -88,7 +88,6 @@ DOMAIN-SUFFIX,tu.baixing.com,REJECT
 DOMAIN-SUFFIX,51lsvip.com,REJECT
 DOMAIN-SUFFIX,valuecome.com,REJECT
 DOMAIN-SUFFIX,kumihua.com,REJECT
-
 ● 2018-06-16
 DOMAIN-SUFFIX,lnk0.com,REJECT
 DOMAIN-SUFFIX,url6.com,REJECT
@@ -99,10 +98,7 @@ DOMAIN-SUFFIX,klz28.com,REJECT
 
 *** dns-server ***
 ● 全部
-*.baidu.com = server:180.76.76.76
 *.163.com = server:114.114.114.114
-*.youku.com = server:114.114.114.114
-*.cibntv.net = server:223.5.5.5
 *** dns-server ***
 
 
