@@ -26,11 +26,9 @@ DOMAIN-SUFFIX,cpro.baidustatic.com,REJECT
 DOMAIN-SUFFIX,cpro2.baidustatic.com,REJECT
 DOMAIN-SUFFIX,dup.baidustatic.com,REJECT
 DOMAIN-SUFFIX,eclick.baidu.com,REJECT
-● applovin
-^(https?://a.applovin.com/2.0/ad\?.*) http://kd.injected.me/kaleido/dbedb466-0b21-4d82-b7e3-3849206d8ef5/$1 307
 ● iqiyi
-^(https?://cache.m.iqiyi.com/mus/.*) http://kd.injected.me/kaleido/de28aa62-4727-4f80-902e-4d85783d97c8/$1 307
-^(https?://t7z.cupid.iqiyi.com/show2\?.*) https://kaleidoscopic.herokuapp.com/kaleido/bfab1f8e-5a54-4817-aa19-1cad3371ecdf/$1 307
+^(https?://cache.m.iqiyi.com/mus/.*) http://kd.injected.me/kaleido/5b2fd96c13bc4/$1 307
+^(https?://t7z.cupid.iqiyi.com/show2\?.*) https://kaleidoscopic.herokuapp.com/kaleido/5b2fd9240870b/$1 307
 ● youku
 DOMAIN-SUFFIX,atm.youku.com,REJECT
 IP-CIDR,45.112.214.0/24,Proxy
@@ -38,14 +36,14 @@ IP-CIDR,103.38.56.0/24,Proxy
 IP-CIDR,198.11.128.0/18,Proxy
 IP-CIDR,198.11.132.0/24,Proxy
 ^https://m.youku.com http://m.youku.com 302
-^(https?://pl-ali.youku.com/playlist/m3u8\?.*) http://kd.injected.me/kaleido/3cb3af55-12c3-45ea-9c80-e9f828dbe80e/$1 307
+^(https?://pl-ali.youku.com/playlist/m3u8\?.*) http://kd.injected.me/kaleido/5b2fd960942dd/$1 307
 ^(https?://g.alicdn.com/player/h5phoneplayer/1.6.2/js/h5phoneplayer.min.js) http://ogtre5vp0.bkt.clouddn.com/cdn/player/h5phoneplayer/1.6.2/js/h5phoneplayer.min.js 302
-^(https://ups.youku.com/ups/get.json\?.*) http://kd.injected.me/kaleido/b8e16d54-9c47-4264-9149-dbe25c212f67/$1 307
+^(https://ups.youku.com/ups/get.json\?.*) http://kd.injected.me/kaleido/5b2fd94dd1e50/$1 307
 ● tencent
 ^https://m.v.qq.com http://m.v.qq.com 302
-^(https?://livew.l.qq.com/livemsg\?.*) https://kaleidoscopic.herokuapp.com/kaleido/8ded7565-0625-46ce-a50e-a181434e2df0/$1 307
+^(https?://livew.l.qq.com/livemsg\?.*) https://kaleidoscopic.herokuapp.com/kaleido/5b2fd955f20a9/$1 307
 ● sohu
-^(https?://m.aty.sohu.com/h\?.*) http://kd.injected.me/kaleido/efe1cb00-7db6-42f4-b74e-486ba21504da/$1 307
+^(https?://m.aty.sohu.com/h\?.*) http://kd.injected.me/kaleido/5b2fd9403a905/$1 307
 ● jd
 ^http://(www.)?jd.com http://jd.cn 302
 ^https://uranus.jd.com/log _ reject
@@ -96,6 +94,7 @@ DOMAIN-SUFFIX,tu.baixing.com,REJECT
 DOMAIN-SUFFIX,51lsvip.com,REJECT
 DOMAIN-SUFFIX,valuecome.com,REJECT
 DOMAIN-SUFFIX,kumihua.com,REJECT
+
 ● 2018-06-16
 DOMAIN-SUFFIX,lnk0.com,REJECT
 DOMAIN-SUFFIX,url6.com,REJECT
