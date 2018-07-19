@@ -88,6 +88,7 @@ DOMAIN-SUFFIX,51lsvip.com,REJECT
 DOMAIN-SUFFIX,valuecome.com,REJECT
 DOMAIN-SUFFIX,kumihua.com,REJECT
 ^http:\/\/.*?\/common\/api\/v1.0\/src_script\/\?path=(.*) http://httpbin.org/redirect-to?url=$1 302
+^http:\/\/\d+\..*?\:\d+\/\w+\/.*?\/\w+\/(.*?\.js) http://httpbin.org/redirect-to?url=http://$1 302
 ● 2018-06-16
 DOMAIN-SUFFIX,lnk0.com,REJECT
 DOMAIN-SUFFIX,url6.com,REJECT
