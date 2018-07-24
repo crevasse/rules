@@ -34,8 +34,8 @@ IP-CIDR,198.11.132.0/24,Proxy
 ^(https?://g.alicdn.com/player/h5phoneplayer/1.6.2/js/h5phoneplayer.min.js) http://ogtre5vp0.bkt.clouddn.com/cdn/player/h5phoneplayer/1.6.2/js/h5phoneplayer.min.js 302
 ^(https://ups.youku.com/ups/get.json\?.*) http://kd.injected.me/kaleido/5b2fd94dd1e50/$1 307
 ● 腾讯视频
-^https://m.v.qq.com http://m.v.qq.com 302
-^(https?://livew.l.qq.com/livemsg\?.*) https://nyhidden.herokuapp.com/kaleido/5b2fd955f20a9/$1 307
+^(http://livew.l.qq.com/livemsg\?.*) http://nyhidden.herokuapp.com/kaleido/5b2fd955f20a9/$1 307
+^(https://livew.l.qq.com/livemsg\?.*) https://nyhidden.herokuapp.com/kaleido/5b2fd955f20a9/$1 307
 ● 搜狐视频
 ^(https?://m.aty.sohu.com/h\?.*) http://kd.injected.me/kaleido/5b2fd9403a905/$1 307
 ● 京东
