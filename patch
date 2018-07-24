@@ -22,7 +22,7 @@ DOMAIN-SUFFIX,dup.baidustatic.com,REJECT
 DOMAIN-SUFFIX,eclick.baidu.com,REJECT
 ● 爱奇艺视频
 ^(https?://cache.m.iqiyi.com/mus/.*) http://kd.injected.me/kaleido/5b2fd96c13bc4/$1 307
-^(https?://t7z.cupid.iqiyi.com/show2\?.*) https://kaleidoscopic.herokuapp.com/kaleido/5b2fd9240870b/$1 307
+^(https?://t7z.cupid.iqiyi.com/show2\?.*) https://nyhidden.herokuapp.com/kaleido/5b2fd9240870b/$1 307
 ● 优酷视频
 DOMAIN-SUFFIX,atm.youku.com,REJECT
 IP-CIDR,45.112.214.0/24,Proxy
@@ -35,7 +35,7 @@ IP-CIDR,198.11.132.0/24,Proxy
 ^(https://ups.youku.com/ups/get.json\?.*) http://kd.injected.me/kaleido/5b2fd94dd1e50/$1 307
 ● 腾讯视频
 ^https://m.v.qq.com http://m.v.qq.com 302
-^(https?://livew.l.qq.com/livemsg\?.*) https://kaleidoscopic.herokuapp.com/kaleido/5b2fd955f20a9/$1 307
+^(https?://livew.l.qq.com/livemsg\?.*) https://nyhidden.herokuapp.com/kaleido/5b2fd955f20a9/$1 307
 ● 搜狐视频
 ^(https?://m.aty.sohu.com/h\?.*) http://kd.injected.me/kaleido/5b2fd9403a905/$1 307
 ● 京东
