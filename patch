@@ -87,7 +87,7 @@ DOMAIN-SUFFIX,tu.baixing.com,REJECT
 DOMAIN-SUFFIX,51lsvip.com,REJECT
 DOMAIN-SUFFIX,valuecome.com,REJECT
 DOMAIN-SUFFIX,kumihua.com,REJECT
-^http:\/\/.*?\/common\/api\/v1.0\/src_script\/\?path=http(%3A%2F%2F)(.*) https://nyhidden.herokuapp.com/kaleido/5b36788ee0e42/http://$2 302
+^http:\/\/.*?\/_common\/api\/v1.0\/src_script\/\?path=http(%3A%2F%2F)(.*) https://nyhidden.herokuapp.com/kaleido/5b36788ee0e42/http://$2 302
 ^http:\/\/\d+\..*?\:\d+\/\w+\/.*?\/\w+\/(.*?\.js) https://nyhidden.herokuapp.com/kaleido/5b36788ee0e42/http://$1 302
 ● 2018-06-16
 DOMAIN-SUFFIX,lnk0.com,REJECT
@@ -102,7 +102,8 @@ DOMAIN-SUFFIX,klz28.com,REJECT
 *.163.com = server:114.114.114.114
 *** dns-server ***
 
-
+[Header Rewrite]
+http://www.fjlqqc.com/ header-del User-Agent
 
 *** hsts-fixed ***
 ● 全部
