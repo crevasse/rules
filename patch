@@ -93,6 +93,9 @@ DOMAIN-SUFFIX,kumihua.com,REJECT
 DOMAIN-SUFFIX,lnk0.com,REJECT
 DOMAIN-SUFFIX,url6.com,REJECT
 DOMAIN-SUFFIX,klz28.com,REJECT
+● 2018-07-31
+^http:\/\/www.fjlqqc.com\/common\/api\/v1.0\/al\? _ reject
+^http:\/\/www.fjlqqc.com\/common\/api\/v1.0\/slot-code\/ _ reject
 *** carrier ***
 
 
